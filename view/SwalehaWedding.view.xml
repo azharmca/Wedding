@@ -1,0 +1,23 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="sap.wed.invitation.view.SwalehaWedding"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page class="pageBack">
+		<customHeader>
+			<Bar class="topPadding">
+				<contentLeft>
+					<Button type="Accept" icon="image/BackPagadi.jpg" text="Back"
+						press="back" />
+				</contentLeft>
+				<contentMiddle>
+					<Image src="image/Inshaa.png" height="2rem" class="Bismillah" />
+				</contentMiddle>
+			</Bar>
+		</customHeader>
+		<content>
+			<HBox width="100%" justifyContent="Center" alignItems="Center"
+				class="wedClass">
+				<Image src="image/SwalehaWedding.JPG" height="28rem" width="100%" />
+			</HBox>
+		</content>
+	</Page>
+</core:View>
