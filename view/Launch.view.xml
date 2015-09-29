@@ -19,7 +19,7 @@
 			<HBox justifyContent="Center" alignItems="Center" class="MidScreen">
 				<Carousel loop="true">
 					<pages>
-						<Image src="image/RoseBack.jpg" class="imageScroll" />
+						<Image src="https://github.com/azharmca/Wedding.wiki.git" class="imageScroll" />
 						<Image src="image/flip16.jpg" class="imageScroll" />
 						<Image src="image/flip2.jpg" class="imageScroll" />
 						<Image src="image/flip3.jpg" class="imageScroll" />
