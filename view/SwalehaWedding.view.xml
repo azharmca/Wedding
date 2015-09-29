@@ -5,18 +5,18 @@
 		<customHeader>
 			<Bar class="topPadding">
 				<contentLeft>
-					<Button type="Accept" icon="image/BackPagadi.jpg" text="Back"
+					<Button type="Accept" icon="https://cloud.githubusercontent.com/assets/10971600/10159495/1701e0bc-66b6-11e5-9f37-28e9d3aa58b8.jpg" text="Back"
 						press="back" />
 				</contentLeft>
 				<contentMiddle>
-					<Image src="image/Inshaa.png" height="2rem" class="Bismillah" />
+					<Image src="https://cloud.githubusercontent.com/assets/10971600/10160608/3e31c020-66bc-11e5-8eb3-6cf887068420.png" height="2rem" class="Bismillah" />
 				</contentMiddle>
 			</Bar>
 		</customHeader>
 		<content>
 			<HBox width="100%" justifyContent="Center" alignItems="Center"
 				class="wedClass">
-				<Image src="image/SwalehaWedding.JPG" height="28rem" width="100%" />
+				<Image src="https://cloud.githubusercontent.com/assets/10971600/10160693/b74999a6-66bc-11e5-8035-765b5f08bc08.JPG" height="28rem" width="100%" />
 			</HBox>
 		</content>
 	</Page>
