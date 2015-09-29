@@ -1,0 +1,76 @@
+<core:View height="100%" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout" xmlns="sap.m" controllerName="sap.wed.invitation.view.Launch"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page class="pageBack">
+		<customHeader>
+			<Bar class="topPadding">
+				<contentMiddle>
+					<Image src="image/Bismillah.jpg" alt="" class="Bismillah" />
+				</contentMiddle>
+				<contentRight>
+					<Button type="Accept" text="Marriage Venue" press="venueDetails" />
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<!-- <subHeader> <Toolbar> <Button type="Accept" text="Marriage Venue" 
+			press="venueDetails" /> <Button type="Accept" text="Reject" press="onPress" 
+			/> <ToolbarSpacer /> </Toolbar> </subHeader> -->
+		<content>
+			<HBox justifyContent="Center" alignItems="Center" class="MidScreen">
+				<Carousel loop="true">
+					<pages>
+						<Image src="image/RoseBack.jpg" class="imageScroll" />
+						<Image src="image/flip16.jpg" class="imageScroll" />
+						<Image src="image/flip2.jpg" class="imageScroll" />
+						<Image src="image/flip3.jpg" class="imageScroll" />
+						<Image src="image/flip4.jpg" class="imageScroll" />
+						<Image src="image/flip5.jpg" class="imageScroll" />
+						<Image src="image/flip6.jpg" class="imageScroll" />
+						<Image src="image/flip7.jpg" class="imageScroll" />
+						<Image src="image/flip8.jpg" class="imageScroll" />
+						<Image src="image/flip9.jpg" class="imageScroll" />
+						<Image src="image/flip10.jpg" class="imageScroll" />
+						<Image src="image/flip11.jpg" class="imageScroll" />
+						<Image src="image/flip12.jpg" class="imageScroll" />
+						<Image src="image/flip13.jpg" class="imageScroll" />
+						<Image src="image/flip14.jpg" class="imageScroll" />
+						<Image src="image/flip15.jpg" class="imageScroll" />
+						<Image src="image/flip11.jpg" class="imageScroll" />
+						<Image src="image/flip17.jpg" class="imageScroll" />
+						<Image src="image/flip18.jpg" class="imageScroll" />
+						<Image src="image/flip19.jpg" class="imageScroll" />
+						<Image src="image/flip20.jpg" class="imageScroll" />
+						<Image src="image/logo.jpg" class="imageScroll" />
+						<Image src="image/Jodi1.png" class="imageScroll" />
+					</pages>
+				</Carousel>
+			</HBox>
+
+			<VBox class="sapUiSmallMargin SecondClass">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Button id="idBtn" text="Swaleha Parveen's Wedding Invitation"
+						press="handleNav">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+						<customData>
+							<core:CustomData id="cData" key="target" value="p2" />
+						</customData>
+					</Button>
+				</HBox>
+				<NavContainer id="navCon" width="98%" height="16em"
+					class="navContainerControl">
+					<Page id="p1" showHeader="false" enableScrolling="false">
+						<Image src="image/Nusrat1.png" class="NavContainerClass"
+							press="onNusratWedding" />
+					</Page>
+					<Page id="p2" showHeader="false" enableScrolling="false">
+						<Image src="image/Swaleha1.png" class="NavContainerClass"
+							press="onSwalehaWedding" />
+					</Page>
+				</NavContainer>
+
+			</VBox>
+		</content>
+	</Page>
+</core:View>
